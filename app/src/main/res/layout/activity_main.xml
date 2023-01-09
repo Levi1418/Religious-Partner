@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appbg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ragastaitalic"
+        android:text="Welcome To Religious Partner" />
+
+    <Button
+        android:id="@+id/Islam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/Silver"
+        android:padding="50dp"
+        app:icon="@drawable/pic1"
+        app:iconTint="@color/black" />
+
+    <Button
+        android:id="@+id/Christian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/Islam"
+        android:backgroundTint="@color/Silver"
+        android:padding="50dp"
+        app:icon="@drawable/pic2"
+        app:iconTint="@color/black" />
+
+    <Button
+        android:id="@+id/Hindu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Islam"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Silver"
+        android:padding="50dp"
+        app:icon="@drawable/pic3"
+        app:iconTint="@color/black" />
+
+    <Button
+        android:id="@+id/Buddhist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Islam"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/Hindu"
+        android:backgroundTint="@color/Silver"
+        android:padding="50dp"
+        app:icon="@drawable/pic4"
+        app:iconTint="@color/black" />
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Buddhist"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/Silver"
+        android:text="Admin" />
+
+</RelativeLayout>

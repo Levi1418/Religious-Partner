@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/minimal"
+    tools:context=".Buddhist">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Buddhist Section"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/ragastaitalic"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/marriage4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:text="Marriage"/>
+
+    <Button
+        android:id="@+id/land4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:text="Land Law"/>
+
+    <Button
+        android:id="@+id/backbuddhist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
+        app:icon="@drawable/pic5"
+        app:iconTint="@color/white"/>
+</LinearLayout>
